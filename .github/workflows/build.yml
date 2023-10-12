@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Install Dependencies
         run: |
@@ -45,7 +45,7 @@ jobs:
             Chinese_Translation_zh-CN.ts3_translation
       
       - name: Upload mappings
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: Chinese_Translation_zh-CN.ts3_translation
           path: Chinese_Translation_zh-CN.ts3_translation
