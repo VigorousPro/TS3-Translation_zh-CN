@@ -884,11 +884,11 @@ servers will not be cleared.</source>
         <translation>&lt;p&gt;&lt;strong&gt;按键通话&lt;/strong&gt; 仅在按下指定的按键时启用麦克风，并在释放指定的热键时停用麦克风。如果您是第一次配置按键通话，请点击 &amp;quot;未分配快捷键&amp;quot; 按钮配置快捷键。&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;With &lt;strong&gt;Continuous Transmission&lt;/strong&gt; voice data is constantly transmitted. It is recommended to use Push-To-Talk or Voice Activation Detection instead to lower bandwidth usage.&lt;/p&gt;</source>
+        <source>&lt;p&gt;With &lt;strong&gt;Continuous Transmission&lt;/strong&gt; voice data is constantly transmitted. It is recommended to use Push-To-Talk or Voice Activity Detection instead to lower bandwidth usage.&lt;/p&gt;</source>
         <translation>&lt;p&gt;&lt;strong&gt;持续传输&lt;/strong&gt; 保持语音数据不断传输。 建议使用 &amp;quot;按键通话&amp;quot; 或 &amp;quot;自动语音检测&amp;quot; 来降低带宽使用率。&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;&lt;strong&gt;Voice Activation Detection&lt;/strong&gt; automatically detects your voice the moment you begin speaking (as well as when you stop speaking) and will enable or disable your microphone accordingly. This facilitates hands-free communication through TeamSpeak.&lt;/p&gt;&lt;p&gt;This method is not recommended in noisy environments since background noise may mistakenly be detected and transmitted to other users.&lt;/p&gt;</source>
+        <source>&lt;p&gt;&lt;strong&gt;Voice Activity Detection&lt;/strong&gt; automatically detects your voice the moment you begin speaking (as well as when you stop speaking) and will enable or disable your microphone accordingly. This facilitates hands-free communication through TeamSpeak.&lt;/p&gt;&lt;p&gt;This method is not recommended in noisy environments since background noise may mistakenly be detected and transmitted to other users.&lt;/p&gt;</source>
         <translation>&lt;p&gt;&lt;strong&gt;自动语音检测&lt;/strong&gt; 会在您开始讲话时（以及停止时）自动检测您的语音，并相应地启用或禁用您的麦克风，即免提模式。&lt;/p&gt;&lt;p&gt;不建议在嘈杂的环境中使用本模式，可能会错误地将检测到的背景噪音传输给其他用户。&lt;/p&gt;</translation>
     </message>
     <message>
@@ -9509,7 +9509,7 @@ Would you like to continue?</source>
         <translation type="unfinished">您的头像已删除。</translation>
     </message>
     <message>
-        <source>&lt;p&gt;You entered a moderated channel. You can only speak if &lt;strong&gt;Talk power&lt;/strong&gt; has been granted to you.&lt;/p&gt;</source>
+        <source>&lt;p&gt;You entered a moderated channel. You can only speak if &lt;strong&gt;Talk Power&lt;/strong&gt; has been granted to you.&lt;/p&gt;</source>
         <translation type="unfinished">&lt;p&gt;您进入了一个受限制的频道。只有获得&lt;strong&gt;发言权限&lt;/strong&gt;后才能说话。&lt;/p&gt;</translation>
     </message>
     <message>
@@ -11968,6 +11968,10 @@ This depends of course, on a valid playback and capture device.</source>
     <message>
         <source>Open channel chat automatically</source>
         <translation type="unfinished">自动打开频道聊天</translation>
+    </message>
+    <message>
+        <source>Selects new channel chat tabs automatically after connecting to a server</source>
+        <translation>在连接到服务器之后自动打开频道聊天选项卡</translation>
     </message>
     <message>
         <source>Enable more options for permission system</source>
