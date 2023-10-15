@@ -2675,13 +2675,13 @@ p, li { white-space: pre-wrap; }
     <message numerus="yes">
         <source>%n directory(s)</source>
         <translation type="unfinished">
-            <numerusform>%n 目录</numerusform>
+            <numerusform>%n个目录</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n file(s)</source>
         <translation type="unfinished">
-            <numerusform>%n 文件</numerusform>
+            <numerusform>%n个文件</numerusform>
         </translation>
     </message>
     <message>
@@ -2691,15 +2691,15 @@ p, li { white-space: pre-wrap; }
     <message numerus="yes">
         <source>Do you really want to delete this file(s)?</source>
         <translation type="unfinished">
-            <numerusform>%n您确定要删除所选择的文件吗?</numerusform>
+            <numerusform>您确定要删除所选择的%n个文件吗?</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Do you really want to delete the folder(s)?
 All files inside the deleted folder(s) will be lost.</source>
         <translation type="unfinished">
-            <numerusform>%n您确定要删除所选择的文件夹吗?
-所有文件夹内的文件将会丢失。</numerusform>
+            <numerusform>%n您确定要删除所选的%n个文件夹吗?
+所选的%n个文件夹内的文件将会丢失。</numerusform>
         </translation>
     </message>
     <message>
@@ -10240,63 +10240,63 @@ Do you want to apply your changes?</source>
     <name>TransferResumeDialog</name>
     <message>
         <source>File Transfer</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文件传输</translation>
     </message>
     <message>
         <source>&amp;Apply to all files</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;应用至所有文件</translation>
     </message>
     <message>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">重命名</translation>
     </message>
     <message>
         <source>&amp;Resume</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;继续</translation>
     </message>
     <message>
         <source>&amp;Overwrite</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;覆盖</translation>
     </message>
     <message>
         <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">跳过</translation>
     </message>
     <message>
         <source>Skip All</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">跳过全部</translation>
     </message>
     <message>
         <source>&amp;Abort</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;中止</translation>
     </message>
     <message>
         <source>This folder already contains a file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">这个文件夹已经包含一个文件了</translation>
     </message>
     <message>
         <source>Do you want to resume or overwrite the existing file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">你想要继续还是覆盖现有的文件？</translation>
     </message>
     <message>
         <source>Do you want to overwrite the existing file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">你想要覆盖现有的文件</translation>
     </message>
     <message>
         <source>Size: &lt;strong&gt;%1&lt;/strong&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文件大小</translation>
     </message>
     <message>
         <source>Date: &lt;strong&gt;%1&lt;/strong&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">时间</translation>
     </message>
     <message>
         <source>Date: &lt;strong&gt;&amp;lt;unknown&amp;gt;&lt;/strong&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">时间: &lt;strong&gt;&amp;lt;未知&amp;gt;&lt;/strong&gt;</translation>
     </message>
     <message>
         <source>with this file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">用这个文件来覆盖吗</translation>
     </message>
 </context>
 <context>
