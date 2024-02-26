@@ -50,15 +50,15 @@ jobs:
           name: Chinese_Translation_zh-CN.ts3_translation
           path: Chinese_Translation_zh-CN.ts3_translation
           
-      - name: Setup Ossutil
-        uses: manyuanrong/setup-ossutil@v2.0
-        with:
-          endpoint: ${{ secrets.OSS_ENDPOINT }}
-          access-key-id: ${{ secrets.OSS_KEY_ID }}
-          access-key-secret: ${{ secrets.OSS_KEY_SECRET }}
+     # - name: Setup Ossutil
+     #   uses: manyuanrong/setup-ossutil@v2.0
+     #   with:
+     #     endpoint: ${{ secrets.OSS_ENDPOINT }}
+     #     access-key-id: ${{ secrets.OSS_KEY_ID }}
+     #     access-key-secret: ${{ secrets.OSS_KEY_SECRET }}
 
-      - name: Upload
-        run: ossutil cp -f Chinese_Translation_zh-CN.ts3_translation oss://edison-storage/
+     # - name: Upload
+     #   run: ossutil cp -f Chinese_Translation_zh-CN.ts3_translation oss://edison-storage/
       
       - name: Group notify
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
