@@ -1365,7 +1365,7 @@ servers will not be cleared.</source>
     <message numerus="yes">
         <source>Delete client(s)</source>
         <translation>
-            <numerusform>删除用户%n</numerusform>
+            <numerusform>删除%名用户</numerusform>
         </translation>
     </message>
     <message>
