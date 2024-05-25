@@ -9578,15 +9578,15 @@ Would you like to continue?</source>
     </message>
     <message>
         <source>Turning Push-To-Talk on, &quot;force-push-to-talk&quot; permission was assigned.</source>
-        <translation type="unfinished">按键通话已打开，分配了&quot;强制按键通话&quot;权限。</translation>
+        <translation type="unfinished">按键通话已启用，已分配&quot;强制按键通话&quot;权限。</translation>
     </message>
     <message>
         <source>Turning Voice Activation on, &quot;force-push-to-talk&quot; permission has been removed.</source>
-        <translation type="unfinished">语音检测通话已打开，&quot;强制按键通话&quot;权限已被移除。</translation>
+        <translation type="unfinished">语音检测通话已启用，&quot;强制按键通话&quot;权限已被移除。</translation>
     </message>
     <message>
         <source>Turning Continuous Transmission on, &quot;force-push-to-talk&quot; permission has been removed.</source>
-        <translation type="unfinished">持续传输已打开，&quot;强制按键通话&quot;权限已被移除。</translation>
+        <translation type="unfinished">持续通话已启用，&quot;强制按键通话&quot;权限已被移除。</translation>
     </message>
     <message>
         <source>&lt;strong&gt;Note: This channel contains files.&lt;/strong&gt;&lt;br&gt;&lt;br&gt;</source>
