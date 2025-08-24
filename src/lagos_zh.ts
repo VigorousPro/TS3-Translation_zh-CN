@@ -13919,7 +13919,7 @@ Once used, the privilege key will become invalid.</source>
     </message>
     <message>
         <source>Sort clients below channels</source>
-        <translation>排序频道中的用户</translation>
+        <translation>将用户排列于频道下方</translation>
     </message>
     <message>
         <source>Display country flag on clients</source>
