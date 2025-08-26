@@ -45,7 +45,7 @@ jobs:
             Chinese_Translation_zh-CN.ts3_translation
       
       - name: Upload mappings
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Chinese_Translation_zh-CN.ts3_translation
           path: Chinese_Translation_zh-CN.ts3_translation
